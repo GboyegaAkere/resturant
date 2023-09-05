@@ -1,11 +1,11 @@
 import React from 'react'
+import Header from './components/Header'
+
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-       Hello world!
-      </h1>
+    <div className='w-screen h-auto flex flex-col'>
+     <Header/>
     </div>
   )
 }
