@@ -1,8 +1,11 @@
 import React from 'react'
+import HomeScreen from '../pages/HomeScreen'
 
 const MainContainer = () => {
   return (
-    <div>MainContainer</div>
+    <div>
+     <HomeScreen/>
+    </div>
   )
 }
 
