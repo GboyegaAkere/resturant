@@ -1,10 +1,10 @@
 import React from 'react'
-import HomeScreen from '../pages/HomeScreen'
+import HomeContainer from './HomeContainer'
 
 const MainContainer = () => {
   return (
-    <div>
-     <HomeScreen/>
+    <div className='w-full h-auto flex flex-cols items-center justify-center'>
+     <HomeContainer/>
     </div>
   )
 }
